@@ -1,0 +1,60 @@
+/*Primero tengo que crear una caja, grande, */ 
+.big { 
+	background-color: red;
+	width: 200px;
+	height: 200px; 
+	position: relative;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+
+} 
+
+.medium{
+	background-color:purple ; 
+	width: 100px;
+	height: 100px;
+	position: relative;	
+	left: 50px;
+	top: 50px;
+}
+
+.small{
+	background-color: yellow; 
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 0px;
+	top:0px;
+}
+
+/*Creando segundo juego de cajas */
+
+.rebig{
+	background-color: blue;
+	width: 200px;
+	height: 200px; 
+	position: relative;
+	left: 0px;
+	right: 0px;
+	
+
+}
+.remedium{
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 50px;
+	top: 50px
+
+
+}
+.resmall{
+	background-color: black; 
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left:-50px;
+	top: -50px;
+}
